@@ -12,7 +12,7 @@ struct ContentView: View {
         Text("Hello, Nicholas!")
             .padding()
             .font(.title)
-            .foregroundColor(.green)
+            .foregroundColor(.blue)
     }
 }
 
