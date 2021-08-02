@@ -14,7 +14,10 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    @State private var modelData = ModelData()
+    
     static var previews: some View {
         ContentView()
+            .environmentObject(ModelData())
     }
 }
